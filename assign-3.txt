@@ -1,0 +1,31 @@
+a) if New Trade Agreement then Dollar Strong and Yuan Strong (use of will) if T -> D ^ Y
+b) if Dollar Strong then Yuan Week   if D -> ~Y
+c) if Dollar Weak then Trade agreement fails if ~D -> ~T
+d) if New trade Agreement then Dollar and Yuan can't both remain strong  if T -> ~(D ^ Y)
+e) if New Trade Agreement -> Dollar weak and Yuan Strong T -> ~D ^ Y
+f) T -> Y & ~D
+g) T -> (Y ^ D) or (~Y ^ ~D) 
+
+h) (D ^ ~Y) or (~D ^ Y) -> T 
+
+
+pi ~pi si (pi implie si) (~pi or si)
+T   F  T        T             T
+T   F  F        F             F
+F   T  T        T             T
+F   T  F        T             T
+
+
+(if A does not happen) or (B happen) then TRUE
+
+(if B happens) or (A does not happen) then TRUE
+
+
+pi si ~si (pi implies si) (pi does not implie si) (pi and ~si)
+T  T   F        T                   F                 F
+T  F   T        F                   T                 T
+F  T   F        T                   F                 F
+F  F   T        T                   F                 F
+
+A happens and B does not happen then True
+
